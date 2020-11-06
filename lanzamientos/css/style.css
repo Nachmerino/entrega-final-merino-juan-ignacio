@@ -11,9 +11,11 @@ h2 { font-size: 66px; font-weight: 600; line-height:80px;}
 
 
 
-p { font-size: 22px  !important; 
+p { font-size: 22px ; 
     color: #ffffff;
     line-height:1.8rem ;
+    margin-top: 0;
+    margin-bottom: 1rem;
 }
 
 section { padding: 70px 0; }
@@ -29,11 +31,7 @@ section { padding: 70px 0; }
     border-radius: 1px;
     display: inline-block;
 }
-.btn-light{ 
-background-color: #ffffff;
-color: #00000011;
-border:1px solid #ffffff ;
-}
+
 
 .btn i { font-size: 14px; margin-left:  5px;}
 
@@ -58,75 +56,6 @@ border:1px solid #ffffff ;
 .navbar-toggler:focus{ outline: none;
 } 
 
-
-#slider {
-    padding: 5rem 0 0 0;
-}
-
-#medio{ 
-        background-image: url(../img/vendedor\ auto\ copia.jpg);
-        background-size: cover;
-        padding-top: 250px;
-        min-height: 700px;
-        color: gray;
-} 
-#medio p {
-    color: white;
-}
-#medio h1 {
-    color: white;
-}
-.content-center{
-    max-width: 800px;
-    margin: 0 auto 0px auto;
-    text-align: center;
-}
-#arriba{
-    margin: 0 auto 0px auto;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    background-color: #000000;
-    font-weight: 400;
-}
-
-.arriba-container{
-    position: relative;
-    overflow: hidden;
-    margin: 10px 0;
-    border-radius: 2px;
-}
-
-
-.arriba-container img {
-    -moz-transition: all 0.8s;
-    -webkit-transition: all 0.8s;
-    transition: all 0.8s;
-}
-
-.arriba-container:hover img {
-    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-}
-
-
-.arriba-details {
-    position: absolute;
-    bottom: 25px;
-    left: 25px;
-    z-index: 9000;
-}
-
-.arriba-details h2 {
-    margin-bottom: 0px;
-}
-
-
-.arriba-details a h2, .arriba-details a p {
-    color: white;
-}
-
-
 #novedades{
     margin: 0px 1px 0px 1px;
     color: rgb(255, 255, 255);
@@ -144,7 +73,19 @@ border:1px solid #ffffff ;
 
 
 
-
+#medio{ 
+    background-image: url(../img/vendedor\ auto\ copia.jpg);
+    background-size: cover;
+    padding-top: 250px;
+    min-height: 700px;
+    color: gray;
+} 
+#medio p {
+color: white;
+}
+#medio h1 {
+color: white;
+}
 
 .texto-container {
     position: relative;
@@ -170,34 +111,11 @@ border:1px solid #ffffff ;
     margin: 0px 8px 0px 8px;
 }
 
-#contactos {
-    margin: 0px 1px 0px 1px;
-    background-color: rgb(228, 228, 228);
-    color: #000000;
+label {
+    display: inline-block;
+    color: #ffffff;
+    margin-bottom: .5rem;
 }
-.texto-contacto p{
-   color: black;
-}
-
-.form-control {
-    font-size: 14px;
-    border: 1px solid #cacaca;
-    padding: 15px;
-    border-radius: 2px;
-}
-
-.form-control:focus {
-    border: 1px solid var;
-    outline: none;
-    box-shadow: none;
-}
-
-.btn-primary {
-    color: #fff !important;
-    background-color: #000000 !important;
-    border-color: #000000 !important;
-}
-
 footer {
     padding: 80px 0;
     text-align: center;
@@ -215,8 +133,6 @@ footer a:hover {
 footer .list-inline .list-inline-item {
     padding: 10px 15px;
 }
-
-
 @media (max-width: 575.98px) {  
    
     #slider h3 {font-size: 2rem;} 

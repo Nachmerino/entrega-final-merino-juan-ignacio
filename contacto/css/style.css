@@ -14,6 +14,8 @@ h2 { font-size: 66px; font-weight: 600; line-height:80px;}
 p { font-size: 22px  !important; 
     color: #ffffff;
     line-height:1.8rem ;
+    margin-top: 0;
+    margin-bottom: 1rem;
 }
 
 section { padding: 70px 0; }
@@ -29,11 +31,7 @@ section { padding: 70px 0; }
     border-radius: 1px;
     display: inline-block;
 }
-.btn-light{ 
-background-color: #ffffff;
-color: #00000011;
-border:1px solid #ffffff ;
-}
+
 
 .btn i { font-size: 14px; margin-left:  5px;}
 
@@ -58,13 +56,8 @@ border:1px solid #ffffff ;
 .navbar-toggler:focus{ outline: none;
 } 
 
-
-#slider {
-    padding: 5rem 0 0 0;
-}
-
 #medio{ 
-        background-image: url(../img/vendedor\ auto\ copia.jpg);
+        background-image: url(../img/vendedor\ copia.jpg);
         background-size: cover;
         padding-top: 250px;
         min-height: 700px;
@@ -76,128 +69,26 @@ border:1px solid #ffffff ;
 #medio h1 {
     color: white;
 }
+
 .content-center{
     max-width: 800px;
     margin: 0 auto 0px auto;
     text-align: center;
 }
-#arriba{
-    margin: 0 auto 0px auto;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    background-color: #000000;
-    font-weight: 400;
-}
 
-.arriba-container{
-    position: relative;
-    overflow: hidden;
-    margin: 10px 0;
-    border-radius: 2px;
-}
-
-
-.arriba-container img {
-    -moz-transition: all 0.8s;
-    -webkit-transition: all 0.8s;
-    transition: all 0.8s;
-}
-
-.arriba-container:hover img {
-    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-}
-
-
-.arriba-details {
-    position: absolute;
-    bottom: 25px;
-    left: 25px;
-    z-index: 9000;
-}
-
-.arriba-details h2 {
-    margin-bottom: 0px;
-}
-
-
-.arriba-details a h2, .arriba-details a p {
+#contactos h3 {
     color: white;
 }
-
-
-#novedades{
-    margin: 0px 1px 0px 1px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(228, 228, 228);
-}
-
-#novedades h2 {
+#contactos .btn-primary {
     color: rgb(0, 0, 0);
-    text-align: center;
+    background-color: #ffee00;
+    border-color: #fffb00;
 }
-#novedades p {
-    color: rgb(0, 0, 0);
-    text-align: center;
-}
-
-
-
-
-
-.texto-container {
-    position: relative;
-    margin: 10px 0;
-}
-
-.texto-details {
-    position: absolute;
-    color: var(--white-color);
-    bottom: 0;
-    left: 20px;
-}
-.texto-details h5 {
-    font-size:1.40rem ;  
-    color: white;
-    text-align: center;
-}
-
-.texto-details span {
-    font-size: 14px;
-    text-align: center;
+label {
+    display: inline-block;
     color: #ffffff;
-    margin: 0px 8px 0px 8px;
+    margin-bottom: .5rem;
 }
-
-#contactos {
-    margin: 0px 1px 0px 1px;
-    background-color: rgb(228, 228, 228);
-    color: #000000;
-}
-.texto-contacto p{
-   color: black;
-}
-
-.form-control {
-    font-size: 14px;
-    border: 1px solid #cacaca;
-    padding: 15px;
-    border-radius: 2px;
-}
-
-.form-control:focus {
-    border: 1px solid var;
-    outline: none;
-    box-shadow: none;
-}
-
-.btn-primary {
-    color: #fff !important;
-    background-color: #000000 !important;
-    border-color: #000000 !important;
-}
-
 footer {
     padding: 80px 0;
     text-align: center;
